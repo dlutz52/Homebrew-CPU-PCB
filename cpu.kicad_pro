@@ -77,7 +77,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -538,6 +538,6 @@
   ],
   "text_variables": {
     "project_name": "Ian Ward's Homebrew CPU PCB",
-    "version": "1.0"
+    "version": "1.1"
   }
 }

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.10"
     },
-    "CreationDate": "2024-03-06T21:26:23-08:00"
+    "CreationDate": "2024-03-17T10:20:00-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "cpu",
       "GUID": "6370752e-6b69-4636-9164-5f7063625858",
-      "Revision": "1.0"
+      "Revision": "1.1"
     },
     "Size": {
       "X": 179.678,
