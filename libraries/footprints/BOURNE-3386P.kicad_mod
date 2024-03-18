@@ -45,7 +45,7 @@
   (pad "1" thru_hole circle (at 0 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (tstamp c616e992-117d-4642-a010-8b2f50fe55fa))
   (pad "2" thru_hole rect (at 2.54 2.54) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (tstamp 8d1e450a-8856-49d1-859e-cce91173ff9d))
   (pad "3" thru_hole rect (at 5.08 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (tstamp 73f2a6a9-d8c2-462c-bce0-3877bded1f82))
-  (model ":LUTZCRAFT_DIR:3dmodels/POT-3386P.STEP"
+  (model "${KIPRJMOD}/libraries/3dmodels/POT-3386P.STEP"
     (offset (xyz 2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
