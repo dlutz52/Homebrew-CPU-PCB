@@ -1,8 +1,8 @@
 # Homebrew CPU Project PCB
 
-My inspiration for this PCB came from watching Ian Ward's YouTube playlist:
+My inspiration for this PCB came from following Ian Ward's project on his web site:
 
-[Homebrew CPU Project](https://www.youtube.com/playlist?list=PLNf9N5rfqZnCrUBi-2e2GmvjMYQVfdT0d)
+[20xt6 Homebrew CPU Project](https://excess.org/cpu/)
 
 
 ![PCB Front Image](homebrew-cpu-pcb-front.jpg)
