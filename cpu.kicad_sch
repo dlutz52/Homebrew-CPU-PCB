@@ -850,7 +850,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 27.305 180.975 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 207e26f7-ebe0-4c67-8901-e15f9a9e5437)
     (property "Reference" "H2" (at 29.845 179.705 0)
       (effects (font (size 1 1)) (justify left))
@@ -864,6 +864,9 @@
     (property "Datasheet" "~" (at 27.305 180.975 0)
       (effects (font (size 1 1)) hide)
     )
+    (property "Sim.Enable" "0" (at 27.305 180.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "cpu"
         (path "/7aab8e99-eed8-4c64-b2cd-ed9d372ca98a"
@@ -874,7 +877,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 27.305 191.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2134f9f0-1b83-4118-bc4b-cba40fb0816e)
     (property "Reference" "H4" (at 29.845 189.865 0)
       (effects (font (size 1 1)) (justify left))
@@ -887,6 +890,9 @@
     )
     (property "Datasheet" "~" (at 27.305 191.135 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Sim.Enable" "0" (at 27.305 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "cpu"
@@ -954,7 +960,7 @@
     (property "Reference" "C6" (at 179.705 51.435 0)
       (effects (font (size 1 1)) (justify left))
     )
-    (property "Value" ".01uF" (at 184.15 55.88 0)
+    (property "Value" "0.01uF" (at 184.15 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" (at 182.88 53.34 0)
@@ -980,7 +986,7 @@
     (property "Reference" "J2" (at 215.265 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "UJC-HP-3-SMT-TR" (at 232.41 67.31 90)
+    (property "Value" "CUI_UJC-HP-M-G-5-MSMT-TR" (at 232.41 73.025 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "footprints:CUI_UJC-HP-M-G-5-MSMT-TR" (at 222.885 49.53 0)
@@ -1072,7 +1078,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 27.305 186.309 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d5fe10a5-f396-4419-94a4-c04d4a6f5935)
     (property "Reference" "H3" (at 29.845 185.039 0)
       (effects (font (size 1 1)) (justify left))
@@ -1085,6 +1091,9 @@
     )
     (property "Datasheet" "~" (at 27.305 186.309 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Sim.Enable" "0" (at 27.305 186.309 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "cpu"
@@ -1147,7 +1156,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 27.305 175.895 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f36dbecd-76d2-42f7-8f78-9318543916a9)
     (property "Reference" "H1" (at 29.845 174.625 0)
       (effects (font (size 1 1)) (justify left))
@@ -1160,6 +1169,9 @@
     )
     (property "Datasheet" "~" (at 27.305 175.895 0)
       (effects (font (size 1 1)) hide)
+    )
+    (property "Sim.Enable" "0" (at 27.305 175.895 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (instances
       (project "cpu"
