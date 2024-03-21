@@ -1,11 +1,11 @@
-(footprint "CUI_UJC-HP-3-SMT-TR" (version 20221018) (generator pcbnew)
+(footprint "CUI_UJC-HP-M-G-5-MSMT-TR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at -2 -3.25) (layer "F.SilkS")
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
     (tstamp f652665d-c705-4b68-b251-38dbfda6e941)
   )
-  (fp_text value "CUI_UJC-HP-3-SMT-TR" (at 5 -2) (layer "F.Fab")
+  (fp_text value "CUI_UJC-HP-M-G-5-MSMT-TR" (at 5 -2) (layer "F.Fab")
       (effects (font (size 0.787402 0.787402) (thickness 0.15)))
     (tstamp 44ea915c-ceaa-4766-b98d-fd29139a9a36)
   )
@@ -55,7 +55,7 @@
     (solder_mask_margin 0.102) (tstamp dc679aed-17f9-4bdf-8fda-82fd38c9f61f))
   (pad "S4" thru_hole oval (at 4.32 3.8) (size 1 2) (drill oval 0.5 1.2) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 5e818a68-9595-4abd-b5d3-e131084b0ff5))
-  (model "${KIPRJMOD}/libraries/3dmodels/UJC-HP-3-SMT-TR.step"
+  (model "${KIPRJMOD}/libraries/3dmodels/CUI_UJC-HP-M-G-5-MSMT-TR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
