@@ -16,7 +16,7 @@ My inspiration for this PCB came from following Ian Ward's project on his web si
 
 Ref | Qty | Value | Vendor\Part # | Description
 ----|-----|-------|---------------|-----------
-C1, C3, C5 | 3 | 10uF | Generic | Catalytic capacitor
+C1, C3, C5 | 3 | 10uF | Generic | Electrolytic capacitor
 C2, C4, C6 | 2 | .01uF | Digikey\FG28C0G1H103JNT06 | Unpolarized capacitor 
 D1 | 1 | YELLOW\Reset | Generic | LED\3mm\Yellow
 D2 | 1 | RED\HALT | Generic | LED\3mm\Red 
