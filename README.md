@@ -42,7 +42,7 @@ U2 | 1 | 74LS00 | Digikey\296-1626-ND | NAND Gate IC 4 Channel 14-PDIP
 U4, U5, U6, U7, U8 | 5 | 74LS163 | Digikey\296-3661-5-ND | Binary Counter\4 Bit\Positive Edge\16-PDIP
 U9, U10 | 2 | SST39SF040-70-4C-PHE | Digikey\SST39SF040-70-4C-PHE-ND | FLASH Memory\4Mbit\70ns\32-PDIP
 
-The LCD and its 16-pin male header are represented only with 3D models, but you need a 2004 LCD with a soldered 16-pin male header with a pitch of 2.54mm to plug into the 16 pin female header to complete this PCB.
+The LCD and its 16-pin male header are represented only with 3D models, but you need a 2004 LCD with a soldered 16-pin male header with a pitch of 2.54mm to plug into the 16 pin female header to complete this PCB. Do NOT try to use a 2004 LCD with an I2C adapter on it.
 
 Most symbols/footprints/models are contained under the libraries directory. Capacitors, resistors and LEDs use KiCad symbols/footprints/models.
 
