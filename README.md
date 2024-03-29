@@ -7,8 +7,11 @@ My inspiration for this PCB came from following Ian Ward's project on his web si
 This PCB implements the [LCD Character Display: Milestone 1 Complete!](https://www.youtube.com/watch?v=neW9uogt1gw) stage of this series of videos. 
 
 But there is more to come in the future, so checkout Ian's videos on his future plans:
+
 [Discrete Logic Rhythm Game Prototype (no CPU)](https://www.youtube.com/watch?v=yo5xX4GLc_U)
+
 [Designing a Rhythm Game: Homebrew CPU Plan Step 2](https://www.youtube.com/watch?v=taPa7SQpib4)
+
 [Maze Game Prototype (no CPU!)](https://www.youtube.com/shorts/fGyHHWiAYDM)
 
 I will try to keep up with him.
