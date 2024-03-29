@@ -4,8 +4,19 @@ My inspiration for this PCB came from following Ian Ward's project on his web si
 
 [20xt6 Homebrew CPU Project](https://excess.org/cpu/)
 
+This PCB implements the [LCD Character Display: Milestone 1 Complete!](https://www.youtube.com/watch?v=neW9uogt1gw) stage of this series of videos. 
 
+But there is more to come in the future, so checkout Ian's videos on his future plans:
+[Discrete Logic Rhythm Game Prototype (no CPU)](https://www.youtube.com/watch?v=yo5xX4GLc_U)
+[Designing a Rhythm Game: Homebrew CPU Plan Step 2](https://www.youtube.com/watch?v=taPa7SQpib4)
+[Maze Game Prototype (no CPU!)](https://www.youtube.com/shorts/fGyHHWiAYDM)
+
+I will try to keep up with him.
+
+PCB Front Image
 ![PCB Front Image](homebrew-cpu-pcb-front.jpg)
+
+PCB Back Image
 ![PCB Back Image](homebrew-cpu-pcb-back.jpg)
 
 # Homebrew CPU PCB BOM
@@ -42,8 +53,9 @@ U2 | 1 | 74LS00 | Digikey\296-1626-ND | NAND Gate IC 4 Channel 14-PDIP
 U4, U5, U6, U7, U8 | 5 | 74LS163 | Digikey\296-3661-5-ND | Binary Counter\4 Bit\Positive Edge\16-PDIP
 U9, U10 | 2 | SST39SF040-70-4C-PHE | Digikey\SST39SF040-70-4C-PHE-ND | FLASH Memory\4Mbit\70ns\32-PDIP
 
-The LCD and its 16-pin male header are represented only with 3D models, but you need a 2004 LCD with a soldered 16-pin male header with a pitch of 2.54mm to plug into the 16 pin female header to complete this PCB. Do NOT try to use a 2004 LCD with an I2C adapter on it.
+The LCD and its 16-pin male header are represented only with 3D models, but you need a 2004 LCD with a soldered 16-pin male header with a pitch of 2.54mm to plug into the 16 pin female header to complete this PCB. I have found the best place to get these is on eBay.
+ Do NOT try to use a 2004 LCD with an I2C adapter on it.
 
-Most symbols/footprints/models are contained under the libraries directory. Capacitors, resistors and LEDs use KiCad symbols/footprints/models.
+Most symbols/footprints/models are contained under the 'libraries' directory. Capacitors, resistors and LEDs use KiCad symbols/footprints/models.
 
-Models will display an appropriate socket under the ICs but these can be omitted. The only exceptions are the sockets for the SST39SF040 FLASH chips. These chips can be changed out for different program\lookup combinations. I would recommend using 32-pin sockets from Aries Electronics or something equivalent, for example, Digikey\A410AE-ND.
+Models will display an appropriate socket under the ICs but these can be omitted on the PCB - they are used to make it easier to replace any components should they need it in the future. The only exceptions are the sockets for the SST39SF040 FLASH chips. These chips can be changed out for different program\lookup combinations, so you do not want to solder them to the PCB. I would recommend using 32-pin sockets from Aries Electronics or something equivalent, for example, Digikey\A410AE-ND.
