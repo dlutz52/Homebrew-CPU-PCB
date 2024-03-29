@@ -62,4 +62,6 @@ Do NOT try to use a 2004 LCD with an I<sup>2</sup>C adapter on it.
 
 Most symbols/footprints/models are contained under the 'libraries' directory. Capacitors, resistors and LEDs use KiCad symbols/footprints/models.
 
-Models will display an appropriate socket under the ICs but these can be omitted on the PCB - they are used to make it easier to replace any components should they need it in the future. The only exceptions are the sockets for the SST39SF040 FLASH chips. These chips can be changed out for different program\lookup combinations, so you do not want to solder them to the PCB. I would recommend using 32-pin sockets from Aries Electronics or something equivalent, for example, Digikey\A410AE-ND.
+KiCad 7.0.10 was used to create this PCB. KiCad 8.0.1 is out now and this project opens in that version. The newer KiCad will warn that this project was created in previous version and will be saved in a the newer format. When closing the schematic or a PCB just discard any changes. I fyou do not you will not be able to use KiCad 7 any more.
+
+Models in KiCad's 3D view will display an appropriate socket under the ICs but these can be omitted on the PCB - they are used to make it easier to replace any components should they need it in the future. The only exceptions are the sockets for the SST39SF040 FLASH chips. These chips can be changed out for different program\lookup combinations, so you do not want to solder them to the PCB. I would recommend using 32-pin sockets from Aries Electronics or something equivalent, for example, Digikey\A410AE-ND.
