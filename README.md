@@ -57,7 +57,8 @@ U4, U5, U6, U7, U8 | 5 | 74LS163 | Digikey\296-3661-5-ND | Binary Counter\4 Bit\
 U9, U10 | 2 | SST39SF040-70-4C-PHE | Digikey\SST39SF040-70-4C-PHE-ND | FLASH Memory\4Mbit\70ns\32-PDIP
 
 The LCD and its 16-pin male header are represented only with 3D models, but you need a 2004 LCD with a soldered 16-pin male header with a pitch of 2.54mm to plug into the 16 pin female header to complete this PCB. I have found the best place to get these is on eBay.
- Do NOT try to use a 2004 LCD with an I2C adapter on it.
+
+Do NOT try to use a 2004 LCD with an I<sup>2</sup>C adapter on it.
 
 Most symbols/footprints/models are contained under the 'libraries' directory. Capacitors, resistors and LEDs use KiCad symbols/footprints/models.
 
